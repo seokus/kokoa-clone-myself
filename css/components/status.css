@@ -1,0 +1,28 @@
+.status-box {
+  display: flex;
+  padding: 8px;
+  font-weight: 600;
+}
+
+.status__column {
+  width: 33%;
+}
+.status__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status__column span {
+  margin-right: 3px;
+}
+.status__column .fa-battery-full {
+  margin: 0 3px;
+}
+.status__column .fa-bolt {
+  font-size: 11px;
+}

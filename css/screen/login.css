@@ -1,0 +1,67 @@
+.login__header-box {
+  margin: 90px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__header-title {
+  margin-bottom: 35px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.login__header-text {
+  text-align: center;
+  font-size: 18px;
+  color: var(--d-gray);
+}
+
+/* Form */
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+}
+.login__form input:not([type="submit"]) {
+  padding-bottom: 25px;
+  font-size: 22px;
+  border: none;
+  border-bottom: 1px solid var(--l-gray);
+}
+.login__form input[type="password"] {
+  padding-top: 25px;
+}
+.login__form input::placeholder {
+  color: var(--d-gray);
+}
+.login__form input:focus {
+  border-bottom: 1px solid var(--d-gray);
+}
+
+.login__form input[type="submit"] {
+  margin-top: 35px;
+  padding: 20px;
+  background-color: rgb(245, 243, 243);
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.login__form .login__form-sign {
+  padding: 20px;
+  background-color: rgb(245, 243, 243);
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.login__form-find-account {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
