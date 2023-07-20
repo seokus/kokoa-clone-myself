@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="status-box">
+      <div class="status__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status__column">
+        <span id="status__column-time">00:00</span>
+      </div>
+      <div class="status__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="altheader">
+      <div class="altheader__column">
+        <h1 class="altheader__column-title">Find</h1>
+      </div>
+      <div class="altheader__column">
+        <a href="#"><i class="fas fa-search"></i></a>
+
+        <a href="#"
+          ><i class="fas fa-cog"> <span class="upper-dot"> </span> </i
+        ></a>
+      </div>
+    </header>
+
+    <main class="main-box">
+      <div class="find__box">
+        <div class="find__column">
+          <a href="#"><i class="fas fa-qrcode"></i></a>
+          <span>QR Code</span>
+        </div>
+        <div class="find__column">
+          <a href="#"><i class="far fa-address-book"></i></a>
+          <span
+            >Add by <br />
+            Contacts</span
+          >
+        </div>
+        <div class="find__column">
+          <a href="#"><i class="fas fa-fingerprint"></i></a>
+          <span>Add by ID</span>
+        </div>
+        <div class="find__column">
+          <a href="#"><i class="far fa-envelope"></i></a>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="friend-recommend">
+        <div class="friend-recommend__text">
+          <span>Recommended Friedns</span>
+        </div>
+        <div class="friend-recommend__text">
+          <span>You have no recommended friends</span>
+        </div>
+        <div class="friend-recommend__text">
+          <span>Open Chat</span>
+          <span
+            >Go to Openchat Home
+            <i class="fas fa-chevron-right"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="find-openchats">
+        <div class="find-openchats__column">
+          <h1 class="find-openchats__column__title">#Retreiver</h1>
+          <span class="find-openchats__column__info">#DOG#RETREIVER#CUTE</span>
+          <div class="find-openchats__column-members">
+            <img src="screenshot/kakao-log.jpg" alt="" />
+            <span class="find-openchats__column-members__text"
+              >802 members</span
+            >
+            <span class="find-openchats__column-members__bar"> </span>
+            <span class="find-openchats__column-members__active">Active</span>
+          </div>
+        </div>
+        <div class="find-openchats__column">
+          <img
+            class="find-openchats__column-img"
+            src="screenshot/retreiver.jpg"
+            alt=""
+          />
+          <div class="find-openchats__column-inner">
+            <i class="fas fa-heart"></i>
+            <span>324</span>
+          </div>
+        </div>
+      </div>
+      <div class="find-openchats">
+        <div class="find-openchats__column">
+          <h1 class="find-openchats__column__title">#Pug</h1>
+          <span class="find-openchats__column__info">#DOG#PUG#CUTE</span>
+          <div class="find-openchats__column-members">
+            <img src="screenshot/kakao-log.jpg" alt="" />
+            <span class="find-openchats__column-members__text"
+              >299 members</span
+            >
+            <span class="find-openchats__column-members__bar"> </span>
+            <span class="find-openchats__column-members__active">Active</span>
+          </div>
+        </div>
+        <div class="find-openchats__column">
+          <img
+            class="find-openchats__column-img"
+            src="screenshot/pug.jpg"
+            alt=""
+          />
+          <div class="find-openchats__column-inner">
+            <i class="fas fa-heart"></i>
+            <span>215</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="nav">
+      <ul class="nav__ul">
+        <a href="friends.html"
+          ><li class="nav__column">
+            <i class="far fa-user"></i></li
+        ></a>
+        <a href="chats.html"
+          ><li class="nav__column">
+            <i class="far fa-comment"></i>
+            <span class="upper-num">1</span>
+          </li></a
+        >
+        <a href="find.html"
+          ><li class="nav__column">
+            <i class="fas fa-search"></i></li
+        ></a>
+        <a href="more.html"
+          ><li class="nav__column">
+            <i class="fas fa-ellipsis-h"></i>
+            <span class="upper-dot"> </span></li
+        ></a>
+      </ul>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/6261c403f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/status.js"></script>
+  </body>
+</html>

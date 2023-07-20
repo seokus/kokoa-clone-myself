@@ -1,14 +1,23 @@
 @import "reset.css";
 @import "variables.css";
 
-/* Status */
+/* Components */
 @import "components/status.css";
+@import "components/altheader.css";
+@import "components/user-profile.css";
+@import "components/nav.css";
+@import "components/upper-dot.css";
 
 /* Screen */
 @import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/find.css";
+@import "screen/more.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 200vh;
 }
 
 .main-box {

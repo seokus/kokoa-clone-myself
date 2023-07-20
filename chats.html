@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="status-box">
+      <div class="status__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status__column">
+        <span id="status__column-time">00:00</span>
+      </div>
+      <div class="status__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="altheader">
+      <div class="altheader__column">
+        <h1 class="altheader__column-title">Chats</h1>
+      </div>
+      <div class="altheader__column">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"
+          ><i class="far fa-comment"></i>
+          <span class="altheader__column-make-img">+</span></a
+        >
+        <a href="#"><i class="fas fa-music"></i></a>
+        <a href="#"><i class="fas fa-cog"></i></a>
+      </div>
+    </header>
+
+    <main class="main-box">
+      <div class="firends-user-profile__box-chats chats-margin">
+        <div class="firends-user-profile-chats">
+          <img
+            class="firends-user-profile__img-chats"
+            src="screenshot/nico-profile.jpg"
+            alt="#"
+          />
+          <div class="chats-text">
+            <span class="firends-user-profile__text-chats">Nico</span>
+            <p class="firends-user-profile__p-chats">
+              Please check My KoKoa Account Info
+            </p>
+          </div>
+        </div>
+        <div class="firends-user-profile-chats">
+          <span>21:22</span>
+          <div class="firends-user-profile-chats-span"><span>1</span></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="nav">
+      <ul class="nav__ul">
+        <a href="friends.html"
+          ><li class="nav__column">
+            <i class="far fa-user"></i></li
+        ></a>
+        <a href="chats.html"
+          ><li class="nav__column">
+            <i class="fas fa-comment"></i>
+            <span class="upper-num">1</span>
+          </li></a
+        >
+        <a href="find.html"
+          ><li class="nav__column">
+            <i class="fas fa-search"></i></li
+        ></a>
+        <a href="more.html"
+          ><li class="nav__column">
+            <i class="fas fa-ellipsis-h"></i>
+            <span class="upper-dot"> </span></li
+        ></a>
+      </ul>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/6261c403f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/status.js"></script>
+  </body>
+</html>

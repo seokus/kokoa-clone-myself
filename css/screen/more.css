@@ -1,0 +1,20 @@
+.firends-user-profile__p-chats-span {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid tomato;
+  color: tomato;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 600;
+  width: 14px;
+  height: 14px;
+  right: -23px;
+  bottom: 16px;
+}
+
+.firends-user-profile-more {
+  display: flex;
+  align-items: center;
+}

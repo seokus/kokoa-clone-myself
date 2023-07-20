@@ -1,0 +1,35 @@
+.friends-name-display {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 251, 251);
+  padding: 18px 0;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.friends-name-display i {
+  color: rgb(209, 206, 206);
+}
+
+.friends-name-display__exclamation {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.friends-name-display__right {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+/* Channel */
+
+.friends-channel {
+  display: flex;
+  margin-top: 20px;
+  padding: 17px 0;
+  justify-content: space-between;
+  border-top: 1px solid var(--l-gray);
+  color: var(--d-gray);
+}

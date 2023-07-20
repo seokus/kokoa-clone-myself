@@ -1,0 +1,145 @@
+.altheader__column i {
+  position: relative;
+}
+
+.find__box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0 25px;
+}
+
+.find__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 25px 0;
+}
+.find__column i {
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+.find__colum span {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+/* Friend recommend */
+
+.friend-recommend {
+  padding: 22px 0;
+  border-top: 1px solid var(--l-gray);
+}
+
+.friend-recommend__text {
+  color: var(--d-gray);
+}
+
+.friend-recommend__text:first-child {
+  font-weight: 600;
+  margin-bottom: 120px;
+}
+
+.friend-recommend__text:nth-child(2) {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.friend-recommend__text:last-child {
+  padding: 20px 0 0 0;
+  border-top: 1px solid var(--l-gray);
+  display: flex;
+  justify-content: space-between;
+}
+.friend-recommend__text span:first-child {
+  font-weight: 600;
+  opacity: 1;
+}
+.friend-recommend__text span:last-child {
+  opacity: 0.7;
+}
+.friend-recommend__text span i {
+  margin-left: 5px;
+}
+
+/* Find OpenChats */
+
+.find-openchats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(248, 241, 241);
+  padding-bottom: 15px;
+}
+.find-openchats img {
+  width: 30px;
+  height: 30px;
+}
+
+.find-openchats__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.find-openchats__column__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.find-openchats__column__info {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--d-gray);
+  margin-bottom: 8px;
+}
+
+.find-openchats__column-members {
+  display: flex;
+  align-items: center;
+  color: var(--d-gray);
+}
+.find-openchats__column-members img {
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+.find-openchats__column-members__bar {
+  width: 1.25px;
+  height: 14px;
+  background-color: var(--d-gray);
+  margin: 0 5px;
+}
+.find-openchats__column-members__active {
+  color: #ff8ed3;
+  font-weight: 600;
+}
+.find-openchats__column {
+  position: relative;
+}
+
+.find-openchats__column:last-child img {
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+}
+
+.find-openchats__column-inner {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 8px;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 4px 7px;
+  border-radius: 8px;
+  color: white;
+}
+
+.find-openchats__column-inner i {
+  font-size: 12px;
+  margin-right: 3px;
+}

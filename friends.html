@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="status-box">
+      <div class="status__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status__column">
+        <span id="status__column-time">00:00</span>
+      </div>
+      <div class="status__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="altheader">
+      <div class="altheader__column">
+        <h1 class="altheader__column-title">Friends</h1>
+      </div>
+      <div class="altheader__column">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-music"></i></a>
+        <a href="#"><i class="fas fa-cog"></i></a>
+      </div>
+    </header>
+    <div class="friends-name-display">
+      <div class="friends-name-display__exclamation">
+        <i class="fas fa-exclamation-circle"></i>
+      </div>
+      <div class="friends-name-display__text">
+        <span>Friend's Names Display</span>
+      </div>
+      <div class="friends-name-display__right">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </div>
+    <main class="main-box">
+      <div class="firends-user-profile__box">
+        <div class="firends-user-profile">
+          <img
+            class="firends-user-profile__img"
+            src="screenshot/profile.jpg"
+            alt="#"
+          />
+          <span class="firends-user-profile__text">Seoku</span>
+        </div>
+        <!-- <div class="firends-user-profile"></div> -->
+      </div>
+
+      <div class="friends-channel">
+        <div class="friends-channel__text">
+          <span>Channel</span>
+        </div>
+        <div class="friends-channel__icon">
+          <i class="fas fa-chevron-up"></i>
+        </div>
+      </div>
+      <div class="firends-user-profile__box-small">
+        <div class="firends-user-profile-small">
+          <img
+            class="firends-user-profile__img-small"
+            src="screenshot/kakao-log.jpg"
+            alt="#"
+          />
+          <span class="firends-user-profile__text-small">Channel</span>
+        </div>
+        <div class="firends-user-profile-small">
+          <span class="firends-user-profile-num-small">2</span>
+          <i class="fas fa-chevron-right friends-user-profile-icon-small"></i>
+        </div>
+      </div>
+    </main>
+
+    <footer class="nav">
+      <ul class="nav__ul">
+        <a href="friends.html"
+          ><li class="nav__column">
+            <i class="fas fa-user"></i></li
+        ></a>
+        <a href="chats.html"
+          ><li class="nav__column">
+            <i class="far fa-comment"></i>
+            <span class="upper-num">1</span>
+          </li></a
+        >
+        <a href="find.html"
+          ><li class="nav__column">
+            <i class="fas fa-search"></i></li
+        ></a>
+        <a href="more.html"
+          ><li class="nav__column">
+            <i class="fas fa-ellipsis-h"></i>
+            <span class="upper-dot"> </span></li
+        ></a>
+      </ul>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/6261c403f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/status.js"></script>
+  </body>
+</html>

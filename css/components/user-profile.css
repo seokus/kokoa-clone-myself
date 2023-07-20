@@ -1,0 +1,56 @@
+.firends-user-profile__box {
+  display: flex;
+}
+
+.firends-user-profile {
+  display: flex;
+}
+
+.firends-user-profile__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.firends-user-profile__text {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* Small profile */
+
+.firends-user-profile__box-small {
+  display: flex;
+  margin: 6px 0;
+  justify-content: space-between;
+}
+
+.firends-user-profile-small {
+  display: flex;
+  align-items: center;
+}
+
+.firends-user-profile__img-small {
+  width: 55px;
+  height: 55px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.firends-user-profile__text-small {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.firends-user-profile-num-small,
+.friends-user-profile-icon-small {
+  color: var(--d-gray);
+}
+.friends-user-profile-icon-small {
+  margin-left: 5px;
+}

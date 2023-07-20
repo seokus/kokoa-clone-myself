@@ -47,6 +47,7 @@
   border-radius: 5px;
   font-size: 17px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .login__form .login__form-sign {
