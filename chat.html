@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: #abc1d1">
+    <div class="status-box color-change">
+      <div class="status__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status__column">
+        <span id="status__column-time">00:00</span>
+      </div>
+      <div class="status__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="altheader-settings">
+      <div class="altheader__column-settings">
+        <a href="chats.html"><i class="fas fa-chevron-left fa-2x"></i></a>
+      </div>
+      <div class="altheader__column-settings">
+        <h1 class="altheader__column-title-settings">Nico</h1>
+      </div>
+      <div class="altheader__column-settings">
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </header>
+
+    <main class="main-box">
+      <div class="chat-date">
+        <span>Thursday, July 20, 2023 </span>
+      </div>
+      <div class="chat-chattings">
+        <div class="chat-chattings__column">
+          <img src="screenshot/nico-profile.jpg" alt="" />
+        </div>
+        <div class="chat-chattings__column">
+          <span class="chat-chattings__column-name">Nico</span>
+          <span class="chat-chattings__column-content">Hi!</span>
+        </div>
+        <span class="chat-chattings__column-time">21:27</span>
+      </div>
+      <!-- Reply -->
+      <div class="chat-chattings-reply">
+        <div class="chat-chattings__column-reply">
+          <span class="chat-chattings__column-content-reply">Hi!</span>
+          <span class="chat-chattings__column-time-reply">21:28</span>
+        </div>
+      </div>
+    </main>
+    <!-- Input -->
+    <form action="" id="chattingForm" class="chat__form">
+      <div class="chat__form-box">
+        <i class="far fa-plus-square"></i>
+        <div class="chat__form__input-box">
+          <input
+            id="chattingInput"
+            class="chat__form__input"
+            type="text"
+            required
+            placeholder="Write Message.."
+          />
+          <i class="far fa-smile"></i>
+          <a href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
+        </div>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6261c403f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/status.js"></script>
+    <script src="js/dhatting.js"></script>
+  </body>
+</html>

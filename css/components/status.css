@@ -8,6 +8,9 @@
   top: 0;
   background-color: white;
 }
+.color-change {
+  background-color: #abc1d1;
+}
 
 .status__column {
   width: 33%;

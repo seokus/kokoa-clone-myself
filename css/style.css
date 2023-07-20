@@ -15,6 +15,7 @@
 @import "screen/find.css";
 @import "screen/more.css";
 @import "screen/settings.css";
+@import "screen/chat.css";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -22,5 +23,5 @@ body {
 }
 
 .main-box {
-  margin: 0 30px;
+  margin: 0 15px;
 }
