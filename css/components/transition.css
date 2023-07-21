@@ -1,3 +1,5 @@
+/* Status-bar */
+
 @keyframes appear {
   from {
     opacity: 0;
@@ -11,4 +13,95 @@
 
 .status-box {
   animation: appear 1s linear forwards;
+}
+
+@keyframes rotate {
+  0% {
+    transform: none;
+  }
+
+  100% {
+    transform: rotateZ(3600deg);
+  }
+}
+
+.fa-cog:hover {
+  animation: rotate 10s infinite;
+}
+
+/* Navgation-bar */
+
+@keyframes up-appear {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav {
+  animation: up-appear 0.5s linear forwards;
+}
+
+@keyframes up-down {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-10px) rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav__column:hover .upper-num {
+  animation: up-down 1.5s linear infinite;
+}
+
+/* Chat */
+
+@keyframes down-appear {
+  from {
+    opacity: 0;
+    transform: translateY(-90px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.altheader-settings {
+  animation: down-appear 0.5s linear forwards;
+}
+
+/* Main */
+
+.main-box {
+  animation: appear 0.5s linear forwards;
+}
+
+/* chats */
+
+.altheader {
+  animation: appear 0.5s ease-in-out forwards;
+}
+
+@keyframes slideright {
+  from {
+    opacity: 0;
+    transform: translateX(-600px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.translate-right {
+  animation: slideright 0.5s linear forwards;
 }
