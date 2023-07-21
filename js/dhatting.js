@@ -68,3 +68,9 @@ if (getReplys) {
   replys = parseReply;
   parseReply.forEach(paintReply);
 }
+
+// chatting btm
+
+const sendBtn = document.querySelector(".chat__form__input-btn");
+
+sendBtn.addEventListener("click", chattingSubmit);
