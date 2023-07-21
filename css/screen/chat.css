@@ -133,7 +133,7 @@
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.chat__form__input-box i:nth-child(2) {
+.chat__form__input-box i:nth-child(3) {
   position: absolute;
   font-size: 30px;
   top: 6px;
@@ -154,6 +154,34 @@
   top: 3px;
   right: 24px;
   background-color: #fee500;
+}
+
+.chat__form__input-btn {
+  display: flex;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  right: 55px;
+  top: 3px;
+  padding: 12px;
+  background-color: #fee500;
+  border-radius: 15px;
+  visibility: hidden;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.chat__form:focus-within .chat__form__input-btn {
+  visibility: visible;
+  transform: translateX(-15px);
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.chat__form__input-btn:hover {
+  background-color: cornflowerblue;
+  color: white;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Transition */
@@ -206,12 +234,18 @@
   align-items: center;
   margin-top: 20px;
   margin-right: 20px;
+  background-color: #fee500;
 }
 
 .chat-chattings-reply:hover .delete-btn {
   visibility: visible;
   opacity: 1;
   transition: linear 0.5s;
+}
+
+.delete-btn:hover {
+  background-color: red;
+  color: white;
 }
 
 @keyframes slide-message {
