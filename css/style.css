@@ -7,6 +7,7 @@
 @import "components/user-profile.css";
 @import "components/nav.css";
 @import "components/upper-dot.css";
+@import "components/transition.css";
 
 /* Screen */
 @import "screen/login.css";
@@ -16,6 +17,7 @@
 @import "screen/more.css";
 @import "screen/settings.css";
 @import "screen/chat.css";
+@import "screen/no-mobile.css";
 
 body {
   font-family: "Open Sans", sans-serif;

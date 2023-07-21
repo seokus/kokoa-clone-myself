@@ -195,14 +195,23 @@
 }
 
 .delete-btn {
-  display: none;
+  visibility: hidden;
   border: none;
   border-radius: 15px;
   cursor: pointer;
+  opacity: 0;
+  transition: all 1s linear;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .chat-chattings-reply:hover .delete-btn {
-  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: linear 0.5s;
 }
 
 @keyframes slide-message {
